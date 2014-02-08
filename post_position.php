@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-mysql_connect("localhost", "root", "tuttu");
+mysql_connect("localhost", "root", "");
 mysql_select_db("tic_tac_toe");
 
 $player_id = $_SESSION["player_id"];
