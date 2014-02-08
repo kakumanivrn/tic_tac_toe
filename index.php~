@@ -1,5 +1,0 @@
-<?php
-session_start();
-$player_id = $_GET["player_id"];
-?>
-
